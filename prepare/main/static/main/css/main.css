@@ -1,0 +1,55 @@
+body {
+    background: #2c2c2c;
+}
+
+aside {
+    float: left;
+    background: #000000;
+    width: 20%;
+    padding:2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right : 5px solid #4d4d4d;
+}
+
+/*Блок изобр*/
+aside img {
+     width: 80px;
+     float: left;
+}
+/*стили лого в левом блоке*/
+aside .logo {
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: 13px;
+}
+/*Левый блок*/
+aside h3{
+    margin-top: 65px;
+    font-size: 28px;
+
+}
+
+
+
+/*Прим стилей к строкам в левом блоке*/
+aside ul {list-style: none}
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: all .3s ease;
+}
+/*#Применение стилей при наведении на строку*/
+
+aside ul li:hover, aside ul a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+}
