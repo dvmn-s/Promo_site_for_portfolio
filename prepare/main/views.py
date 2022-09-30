@@ -2,11 +2,7 @@ from django.shortcuts import render
 
 
 def index(request):
-    data = {
-        'title': 'Main page',
-        'values': ['Some', 'Hello', '123']
-    }
-    return render(request, 'main/index.html', data)
+    return render(request, 'main/index.html')
 
 
 def about(requeset):

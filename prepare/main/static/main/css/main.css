@@ -64,3 +64,15 @@ main .features {
 
 main .features h1 {font-size: 50px;}
 main .features p {max-width: 400px; margin: 20px auto  }
+
+/*Обработка вывода News*/
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+
+
+}
