@@ -1,0 +1,19 @@
+{% extends 'main/layout.html' %}
+
+{% block title %} Form for appending some articles {% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1> Form for appending some articles  </h1>
+        <form method="post">
+            {% csrf_token %}
+            <input type="text" placeholder="Name of article" class="form-control"><br>
+            <input type="text" placeholder="Anons" class="form-control"><br>
+            <textarea class="form-control" placeholder="Text"></textarea><br>
+            <input type="date" placeholder="Anons" class="form-control"><br>
+            <input type="time" placeholder="Anons" class="form-control"><br>
+            <button class="button-success" type="sumbit"> Appending </button>
+        </form>
+    </div>
+
+{% endblock %}

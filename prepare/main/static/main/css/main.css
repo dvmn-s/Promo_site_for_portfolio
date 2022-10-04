@@ -76,3 +76,10 @@ main .features p {max-width: 400px; margin: 20px auto  }
 
 
 }
+
+/* Обработка формы добавления новостей */
+form {
+    margin-left: 27%;
+    width:500px;
+    margin-top: 50px;
+}
