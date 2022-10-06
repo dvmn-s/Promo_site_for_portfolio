@@ -2,8 +2,8 @@ from django.db import models
 
 
 class Articles(models.Model):
-    title = models.CharField('Name', max_length=50, default='None')
-    anons = models.CharField('Anons', max_length=250, default='None')
+    title = models.CharField('Name', max_length=50)
+    anons = models.CharField('Anons', max_length=250) #default='None
     full_text = models.TextField('Full_text')
     date = models.DateTimeField('Date of Publication')
 
